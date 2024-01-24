@@ -3,4 +3,5 @@ bin/
 build/
 derbyDB/
 derbyDBTest/
+target/
 derby.log
