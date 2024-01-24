@@ -1,0 +1,23 @@
+plugins {
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	
+	implementation group: 'org.apache.derby', name: 'derby', version: '10.16.1.1'
+	testImplementation 'junit:junit:4.13.2'
+	testRuntimeOnly 'org.junit.vintage:junit-vintage-engine:5.8.2'
+    
+}
+
+test {
+    useJUnitPlatform()
+}
+
+application {
+    mainClass = 'org.twohead.zadanie.App'
+}
