@@ -1,0 +1,6 @@
+.gradle
+bin/
+build/
+derbyDB/
+derbyDBTest/
+derby.log
