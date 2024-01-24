@@ -4,8 +4,8 @@ package org.twohead.zadanie.consumer;
 import java.sql.SQLException;
 import java.util.concurrent.TimeUnit;
 
+import org.twohead.zadanie.model.User;
 import org.twohead.zadanie.queue.DBBlockingQueue;
-import org.twohead.zadanie.queue.model.User;
 
 public class UserPrintConsumer extends UserConsumer {
 

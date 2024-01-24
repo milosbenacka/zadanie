@@ -1,4 +1,4 @@
-package org.twohead.zadanie.queue.model;
+package org.twohead.zadanie.model;
 
 import java.util.Objects;
 

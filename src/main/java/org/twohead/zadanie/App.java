@@ -7,10 +7,10 @@ import java.util.concurrent.TimeUnit;
 
 import org.twohead.zadanie.consumer.UserDeleteConsumer;
 import org.twohead.zadanie.consumer.UserPrintConsumer;
+import org.twohead.zadanie.model.User;
 import org.twohead.zadanie.persistance.DBUtils;
 import org.twohead.zadanie.producer.UserProducer;
 import org.twohead.zadanie.queue.UserQueue;
-import org.twohead.zadanie.queue.model.User;
 
 public class App extends UserProducer {
 	

@@ -2,9 +2,9 @@ package org.twohead.zadanie.queue;
 
 import java.sql.SQLException;
 
+import org.twohead.zadanie.dao.UserDAO;
+import org.twohead.zadanie.model.User;
 import org.twohead.zadanie.persistance.DBUtils;
-import org.twohead.zadanie.queue.dao.UserDAO;
-import org.twohead.zadanie.queue.model.User;
 
 public class UserQueue extends DBBlockingQueue<User> {
 	

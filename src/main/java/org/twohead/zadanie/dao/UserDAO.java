@@ -1,12 +1,12 @@
-package org.twohead.zadanie.queue.dao;
+package org.twohead.zadanie.dao;
 
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
+import org.twohead.zadanie.model.User;
 import org.twohead.zadanie.persistance.DBUtils;
-import org.twohead.zadanie.queue.model.User;
 
 public class UserDAO {
 	public void insert(User user) throws SQLException {

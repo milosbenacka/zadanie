@@ -2,8 +2,8 @@ package org.twohead.zadanie.producer;
 
 import java.util.Collection;
 
+import org.twohead.zadanie.model.User;
 import org.twohead.zadanie.queue.DBBlockingQueue;
-import org.twohead.zadanie.queue.model.User;
 
 public class UserProducer extends AbstractProducer<User> {
 
