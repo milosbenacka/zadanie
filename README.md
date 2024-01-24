@@ -52,4 +52,4 @@ java -cp lib/junit-4.13.2.jar;lib/hamcrest-core-1.3.jar;lib/derby-10.16.1.1.jar;
 
 ## Note
 
-Whene running from linux based OS please use <b>:</b> instead of <b>;</b> as the path separator in the classpath.
+When running from linux based OS please use <b>:</b> instead of <b>;</b> as the path separator in the classpath.
